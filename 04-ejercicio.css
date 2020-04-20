@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /* vh => viewport height
+    altura de la resolucion de la pantalla
+    del dispoitivo */
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+.contenedor {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+
+.circulo {
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.texto-1{
+    text-align: center;
+    width: 300px;
+    /* position: absolute; */
+}
+
+.texto-1>h3 {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: blue;
+}
+.texto-1>p {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #444444;
+}
+#img_facebook{
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    transform: translate(-50%, 50%);
+}
+#img_github{
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+}
+#img_twitter{
+    position: absolute;
+    bottom: 15%;
+    left: 60%;
+    transform: translate(-50%, 50%);
+}
+#img_linkedin{
+    position: absolute;
+    bottom: 15%;
+    left: 80%;
+    transform: translate(-50%, 50%);
+}
